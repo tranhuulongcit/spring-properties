@@ -1,0 +1,26 @@
+#datatype properties
+cafeit:
+  resourceRoot: /user/longtran/
+  socialAutoSignup: true
+  recordPerPage: 10
+
+  #Object properties
+  google:
+    appId: 9910628-7lnr2nv468eoa5ag8a0foguibo04t9h6.apps.googleusercontent.com
+    appSecret: 9fXmkMZNY1eHtA9uu9u-OOVA
+    enable: true
+
+  #List properties
+  defaultRecipients:
+    -
+      admin@gmail.com
+    -
+      owner@gmail.com
+    -
+      anonymous@gmail.com
+
+  #Map Properties
+  additionalHeaders:
+    tag: cafeit-auth
+    secure: true
+
